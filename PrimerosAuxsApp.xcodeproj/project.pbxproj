@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0701AE7C1ED4936400F12127 /* HospMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701AE7B1ED4936400F12127 /* HospMapViewController.swift */; };
+		0701AE7F1ED4A06E00F12127 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701AE7E1ED4A06E00F12127 /* CoreLocation.framework */; };
+		0701AE811ED4AD2A00F12127 /* Farm24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701AE801ED4AD2A00F12127 /* Farm24ViewController.swift */; };
+		0701AE831ED4ADC700F12127 /* AllFarmaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701AE821ED4ADC700F12127 /* AllFarmaViewController.swift */; };
+		0712D7871ED8A31200755E7E /* Telefonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0712D7861ED8A31200755E7E /* Telefonos.swift */; };
 		0747CD871ECB743700BC2BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0747CD861ECB743700BC2BA3 /* AppDelegate.swift */; };
 		0747CD891ECB743700BC2BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0747CD881ECB743700BC2BA3 /* ViewController.swift */; };
 		0747CD8C1ECB743700BC2BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0747CD8A1ECB743700BC2BA3 /* Main.storyboard */; };
 		0747CD8E1ECB743700BC2BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0747CD8D1ECB743700BC2BA3 /* Assets.xcassets */; };
 		0747CD911ECB743700BC2BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0747CD8F1ECB743700BC2BA3 /* LaunchScreen.storyboard */; };
+		0781B0B11EF302BE00167865 /* Font-Hood-Brother-Sharp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0781B0B01EF3024B00167865 /* Font-Hood-Brother-Sharp.otf */; };
+		0783114D1ED89677008C424F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783114C1ED89677008C424F /* CFNetwork.framework */; };
+		0783114F1ED89686008C424F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783114E1ED89686008C424F /* CoreGraphics.framework */; };
+		078311511ED89697008C424F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078311501ED89697008C424F /* AudioToolbox.framework */; };
+		078311531ED896A0008C424F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078311521ED896A0008C424F /* QuartzCore.framework */; };
+		078311551ED896A9008C424F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078311541ED896A9008C424F /* StoreKit.framework */; };
+		078311571ED896AC008C424F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078311561ED896AC008C424F /* Bolts.framework */; };
+		078311591ED896AE008C424F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078311581ED896AE008C424F /* Parse.framework */; };
+		0783115B1ED896B8008C424F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783115A1ED896B8008C424F /* SystemConfiguration.framework */; };
+		0783115D1ED896C8008C424F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783115C1ED896C8008C424F /* Security.framework */; };
+		0783115F1ED896E1008C424F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783115E1ED896E1008C424F /* Foundation.framework */; };
+		07B9EEC41F1BEE9F00A091AF /* SelectorMapasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B9EEC31F1BEE9F00A091AF /* SelectorMapasViewController.swift */; };
+		07ED81AC1EDF535200DBBEC2 /* PrimerosAuxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED81AB1EDF535200DBBEC2 /* PrimerosAuxViewController.swift */; };
+		07ED81AE1EDF542C00DBBEC2 /* PrimAux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED81AD1EDF542C00DBBEC2 /* PrimAux.swift */; };
+		07EF286F1EE5BB7100F38392 /* HospitalesEspCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF286E1EE5BB7100F38392 /* HospitalesEspCollectionViewCell.swift */; };
+		07EF28711EE5BC0600F38392 /* Hospitales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF28701EE5BC0600F38392 /* Hospitales.swift */; };
+		07EF28731EE5D57400F38392 /* TelefonosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF28721EE5D57400F38392 /* TelefonosCollectionViewCell.swift */; };
+		2DD14DC532A11B141344F111 /* Pods_PrimerosAuxsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C74641FF257D69941D46CE /* Pods_PrimerosAuxsApp.framework */; };
+		5DB219DB1EE6A75C005FF33A /* InformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB219DA1EE6A75C005FF33A /* InformacionViewController.swift */; };
+		5DB219DD1EE6BF91005FF33A /* PrimerosAuxiliosTextoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB219DC1EE6BF91005FF33A /* PrimerosAuxiliosTextoTableViewCell.swift */; };
+		5DB219DF1EE6BFA3005FF33A /* PrimerosAuxiliosGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB219DE1EE6BFA3005FF33A /* PrimerosAuxiliosGeneralTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0701AE7B1ED4936400F12127 /* HospMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospMapViewController.swift; sourceTree = "<group>"; };
+		0701AE7E1ED4A06E00F12127 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0701AE801ED4AD2A00F12127 /* Farm24ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farm24ViewController.swift; sourceTree = "<group>"; };
+		0701AE821ED4ADC700F12127 /* AllFarmaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllFarmaViewController.swift; sourceTree = "<group>"; };
+		0712D7861ED8A31200755E7E /* Telefonos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telefonos.swift; sourceTree = "<group>"; };
 		0747CD831ECB743700BC2BA3 /* PrimerosAuxsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimerosAuxsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0747CD861ECB743700BC2BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0747CD881ECB743700BC2BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,29 @@
 		0747CD8D1ECB743700BC2BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0747CD901ECB743700BC2BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0747CD921ECB743700BC2BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781B0B01EF3024B00167865 /* Font-Hood-Brother-Sharp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-Hood-Brother-Sharp.otf"; sourceTree = "<group>"; };
+		0783114C1ED89677008C424F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0783114E1ED89686008C424F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		078311501ED89697008C424F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		078311521ED896A0008C424F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		078311541ED896A9008C424F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		078311561ED896AC008C424F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Library/Developer/Xcode/DerivedData/PrimerosAuxsApp-dhzufxngaosfiqgrptsookyzxvtd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		078311581ED896AE008C424F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Library/Developer/Xcode/DerivedData/PrimerosAuxsApp-dhzufxngaosfiqgrptsookyzxvtd/Build/Products/Debug-iphonesimulator/Parse/Parse.framework"; sourceTree = "<group>"; };
+		0783115A1ED896B8008C424F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0783115C1ED896C8008C424F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0783115E1ED896E1008C424F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B9EEC31F1BEE9F00A091AF /* SelectorMapasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorMapasViewController.swift; sourceTree = "<group>"; };
+		07ED81AB1EDF535200DBBEC2 /* PrimerosAuxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimerosAuxViewController.swift; sourceTree = "<group>"; };
+		07ED81AD1EDF542C00DBBEC2 /* PrimAux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimAux.swift; sourceTree = "<group>"; };
+		07EF286E1EE5BB7100F38392 /* HospitalesEspCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalesEspCollectionViewCell.swift; sourceTree = "<group>"; };
+		07EF28701EE5BC0600F38392 /* Hospitales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospitales.swift; sourceTree = "<group>"; };
+		07EF28721EE5D57400F38392 /* TelefonosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelefonosCollectionViewCell.swift; sourceTree = "<group>"; };
+		5DB219DA1EE6A75C005FF33A /* InformacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionViewController.swift; sourceTree = "<group>"; };
+		5DB219DC1EE6BF91005FF33A /* PrimerosAuxiliosTextoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimerosAuxiliosTextoTableViewCell.swift; sourceTree = "<group>"; };
+		5DB219DE1EE6BFA3005FF33A /* PrimerosAuxiliosGeneralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimerosAuxiliosGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		C6F0CABF0DE2684283ED997C /* Pods-PrimerosAuxsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimerosAuxsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimerosAuxsApp/Pods-PrimerosAuxsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C74641FF257D69941D46CE /* Pods_PrimerosAuxsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimerosAuxsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94DA3E76503B282AF3E0A49 /* Pods-PrimerosAuxsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimerosAuxsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimerosAuxsApp/Pods-PrimerosAuxsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0783115F1ED896E1008C424F /* Foundation.framework in Frameworks */,
+				0783115D1ED896C8008C424F /* Security.framework in Frameworks */,
+				0783115B1ED896B8008C424F /* SystemConfiguration.framework in Frameworks */,
+				078311591ED896AE008C424F /* Parse.framework in Frameworks */,
+				078311571ED896AC008C424F /* Bolts.framework in Frameworks */,
+				078311551ED896A9008C424F /* StoreKit.framework in Frameworks */,
+				078311531ED896A0008C424F /* QuartzCore.framework in Frameworks */,
+				078311511ED89697008C424F /* AudioToolbox.framework in Frameworks */,
+				0783114F1ED89686008C424F /* CoreGraphics.framework in Frameworks */,
+				0783114D1ED89677008C424F /* CFNetwork.framework in Frameworks */,
+				0701AE7F1ED4A06E00F12127 /* CoreLocation.framework in Frameworks */,
+				2DD14DC532A11B141344F111 /* Pods_PrimerosAuxsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0701AE7D1ED4A06E00F12127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0783115E1ED896E1008C424F /* Foundation.framework */,
+				0783115C1ED896C8008C424F /* Security.framework */,
+				0783115A1ED896B8008C424F /* SystemConfiguration.framework */,
+				078311581ED896AE008C424F /* Parse.framework */,
+				078311561ED896AC008C424F /* Bolts.framework */,
+				078311541ED896A9008C424F /* StoreKit.framework */,
+				078311521ED896A0008C424F /* QuartzCore.framework */,
+				078311501ED89697008C424F /* AudioToolbox.framework */,
+				0783114E1ED89686008C424F /* CoreGraphics.framework */,
+				0783114C1ED89677008C424F /* CFNetwork.framework */,
+				0701AE7E1ED4A06E00F12127 /* CoreLocation.framework */,
+				D7C74641FF257D69941D46CE /* Pods_PrimerosAuxsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0747CD7A1ECB743700BC2BA3 = {
 			isa = PBXGroup;
 			children = (
 				0747CD851ECB743700BC2BA3 /* PrimerosAuxsApp */,
 				0747CD841ECB743700BC2BA3 /* Products */,
+				0701AE7D1ED4A06E00F12127 /* Frameworks */,
+				14D2318A5E40DEC56140EC8C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +141,69 @@
 		0747CD851ECB743700BC2BA3 /* PrimerosAuxsApp */ = {
 			isa = PBXGroup;
 			children = (
+				07EF286B1EE5B50300F38392 /* Informacion */,
+				07EF286A1EE5B4EC00F38392 /* Primeros Auxilios */,
+				07EF28691EE5B4D800F38392 /* Mapas */,
 				0747CD861ECB743700BC2BA3 /* AppDelegate.swift */,
 				0747CD881ECB743700BC2BA3 /* ViewController.swift */,
 				0747CD8A1ECB743700BC2BA3 /* Main.storyboard */,
 				0747CD8D1ECB743700BC2BA3 /* Assets.xcassets */,
 				0747CD8F1ECB743700BC2BA3 /* LaunchScreen.storyboard */,
 				0747CD921ECB743700BC2BA3 /* Info.plist */,
+				0781B0AF1EF3023F00167865 /* Fuentes */,
 			);
 			path = PrimerosAuxsApp;
+			sourceTree = "<group>";
+		};
+		0781B0AF1EF3023F00167865 /* Fuentes */ = {
+			isa = PBXGroup;
+			children = (
+				0781B0B01EF3024B00167865 /* Font-Hood-Brother-Sharp.otf */,
+			);
+			name = Fuentes;
+			sourceTree = "<group>";
+		};
+		07EF28691EE5B4D800F38392 /* Mapas */ = {
+			isa = PBXGroup;
+			children = (
+				0701AE7B1ED4936400F12127 /* HospMapViewController.swift */,
+				0701AE801ED4AD2A00F12127 /* Farm24ViewController.swift */,
+				0701AE821ED4ADC700F12127 /* AllFarmaViewController.swift */,
+				07B9EEC31F1BEE9F00A091AF /* SelectorMapasViewController.swift */,
+			);
+			name = Mapas;
+			sourceTree = "<group>";
+		};
+		07EF286A1EE5B4EC00F38392 /* Primeros Auxilios */ = {
+			isa = PBXGroup;
+			children = (
+				07ED81AB1EDF535200DBBEC2 /* PrimerosAuxViewController.swift */,
+				07ED81AD1EDF542C00DBBEC2 /* PrimAux.swift */,
+				5DB219DC1EE6BF91005FF33A /* PrimerosAuxiliosTextoTableViewCell.swift */,
+				5DB219DE1EE6BFA3005FF33A /* PrimerosAuxiliosGeneralTableViewCell.swift */,
+			);
+			name = "Primeros Auxilios";
+			sourceTree = "<group>";
+		};
+		07EF286B1EE5B50300F38392 /* Informacion */ = {
+			isa = PBXGroup;
+			children = (
+				5DB219DA1EE6A75C005FF33A /* InformacionViewController.swift */,
+				07EF286E1EE5BB7100F38392 /* HospitalesEspCollectionViewCell.swift */,
+				07EF28701EE5BC0600F38392 /* Hospitales.swift */,
+				07EF28721EE5D57400F38392 /* TelefonosCollectionViewCell.swift */,
+				0712D7861ED8A31200755E7E /* Telefonos.swift */,
+			);
+			name = Informacion;
+			sourceTree = "<group>";
+		};
+		14D2318A5E40DEC56140EC8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F0CABF0DE2684283ED997C /* Pods-PrimerosAuxsApp.debug.xcconfig */,
+				E94DA3E76503B282AF3E0A49 /* Pods-PrimerosAuxsApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0747CD951ECB743700BC2BA3 /* Build configuration list for PBXNativeTarget "PrimerosAuxsApp" */;
 			buildPhases = (
+				560CC4712373682596177EEB /* [CP] Check Pods Manifest.lock */,
 				0747CD7F1ECB743700BC2BA3 /* Sources */,
 				0747CD801ECB743700BC2BA3 /* Frameworks */,
 				0747CD811ECB743700BC2BA3 /* Resources */,
+				60CA6E2C7949993D41FAD9C3 /* [CP] Embed Pods Frameworks */,
+				4FC5C32A5252ABDA596A63A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +241,7 @@
 				TargetAttributes = {
 					0747CD821ECB743700BC2BA3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5FC68J8B93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0781B0B11EF302BE00167865 /* Font-Hood-Brother-Sharp.otf in Resources */,
 				0747CD911ECB743700BC2BA3 /* LaunchScreen.storyboard in Resources */,
 				0747CD8E1ECB743700BC2BA3 /* Assets.xcassets in Resources */,
 				0747CD8C1ECB743700BC2BA3 /* Main.storyboard in Resources */,
@@ -131,13 +278,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FC5C32A5252ABDA596A63A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimerosAuxsApp/Pods-PrimerosAuxsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560CC4712373682596177EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60CA6E2C7949993D41FAD9C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimerosAuxsApp/Pods-PrimerosAuxsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0747CD7F1ECB743700BC2BA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ED81AC1EDF535200DBBEC2 /* PrimerosAuxViewController.swift in Sources */,
+				07B9EEC41F1BEE9F00A091AF /* SelectorMapasViewController.swift in Sources */,
+				0701AE811ED4AD2A00F12127 /* Farm24ViewController.swift in Sources */,
+				5DB219DF1EE6BFA3005FF33A /* PrimerosAuxiliosGeneralTableViewCell.swift in Sources */,
+				5DB219DB1EE6A75C005FF33A /* InformacionViewController.swift in Sources */,
+				07ED81AE1EDF542C00DBBEC2 /* PrimAux.swift in Sources */,
+				0712D7871ED8A31200755E7E /* Telefonos.swift in Sources */,
+				0701AE7C1ED4936400F12127 /* HospMapViewController.swift in Sources */,
+				07EF286F1EE5BB7100F38392 /* HospitalesEspCollectionViewCell.swift in Sources */,
+				07EF28731EE5D57400F38392 /* TelefonosCollectionViewCell.swift in Sources */,
+				5DB219DD1EE6BF91005FF33A /* PrimerosAuxiliosTextoTableViewCell.swift in Sources */,
 				0747CD891ECB743700BC2BA3 /* ViewController.swift in Sources */,
+				07EF28711EE5BC0600F38392 /* Hospitales.swift in Sources */,
 				0747CD871ECB743700BC2BA3 /* AppDelegate.swift in Sources */,
+				0701AE831ED4ADC700F12127 /* AllFarmaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,25 +468,35 @@
 		};
 		0747CD961ECB743700BC2BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F0CABF0DE2684283ED997C /* Pods-PrimerosAuxsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5FC68J8B93;
 				INFOPLIST_FILE = PrimerosAuxsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CarlosLorca.PrimerosAuxsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0747CD971ECB743700BC2BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94DA3E76503B282AF3E0A49 /* Pods-PrimerosAuxsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5FC68J8B93;
 				INFOPLIST_FILE = PrimerosAuxsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CarlosLorca.PrimerosAuxsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -301,6 +519,7 @@
 				0747CD971ECB743700BC2BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,28 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - BTNavigationDropdownMenu (0.4.1)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu (from `https://github.com/PhamBaTho/BTNavigationDropdownMenu.git`, branch `swift-3.0`)
+  - Parse
+
+EXTERNAL SOURCES:
+  BTNavigationDropdownMenu:
+    :branch: swift-3.0
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+CHECKOUT OPTIONS:
+  BTNavigationDropdownMenu:
+    :commit: 2c08c8579cf7a53ecb3dbf578e6e1034080a9859
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+
+PODFILE CHECKSUM: 3aa962075822bb1543534aac649a6729bc6552a1
+
+COCOAPODS: 1.2.1
